@@ -311,18 +311,16 @@ a, a:hover {
   /* CTA Button */
 
 
-  
-
-  
-
-
-  @media(max-width: 767px){
-
+  @media(max-width: 940px){
     @media only screen and (orientation: landscape) {
         .position-home {
             position: relative;
         }
-      }
+    }
+  } 
+
+
+  @media(max-width: 767px){
 
       .middle-logo img {
         max-width: 300px;
