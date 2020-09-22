@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+    -moz-osx-font-smoothing: grayscale; /* Firefox */
+    text-rendering: optimizeLegibility;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.royal-bg {
+    background: url(../images/royalBg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.regal-bg {
+    background: url(../images/regalBg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-section {
+    padding: 50px 0;
+}
+
+.logo-section img {
+    max-width: 175px;
+}
+
+.middle-logo img {
+    max-width: 500px;
+}
+
+.middle-logo {
+    padding: 0 0 50px;  
+}
+
+.clock-section {
+    padding: 50px 0 100px;
+}
+
+.clock-section h2 {
+    color: #edb657;
+    text-transform: uppercase;
+    padding: 0 0 24px;
+}
+
+/* Form */
+
+.form-section {
+    background: rgba(171, 6, 10, .8);
+    padding: 24px 40px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.form-section h2 {
+    color: #edb657;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.form-section label {
+    text-align: right;
+    display: block;
+    color: #edb657;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-section input {
+    background: transparent;
+    outline: 0;
+    border: 1px solid #edb657;
+    width: 100%;
+    padding: 5px 10px;
+    color: #edb657;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.thankyou-section {
+    background: rgba(171, 6, 10, .8);
+    padding: 40px 40px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.thankyou-section h2 {
+    color: #edb657;
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.thankyou-section h3 {
+    color: #edb657;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.thankyou-section h4 {
+    color: #edb657;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 20px 0 0;
+    margin: 0 !important;
+}
+
+.thankyou-section p {
+    color: #edb657;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0 0;
+    margin: 0 !important;
+}
+
+.median-line {
+    height:1px;
+    border-radius:2px;
+    background:linear-gradient(to right,rgba(237, 182, 87,0) 0,#f9f9f9 75%, rgba(237, 182, 87,0) 100%);
+    transition:width .5s,opacity .6s;
+    
+  }
+
+
+
+
+/* Clock */
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #edb657;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #000000;
+    display: inline-block;
+    color: #edb657;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Clock */
+
+
+/* CTA Button */
+.btns {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0px;
+    font-size: 16px;
+    border:2px solid #f1f1f1;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btns-primary {
+    color: #000000;
+    background-color: #edb657;
+    border-color: #edb657 ;
+}
+
+.btns-primary:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff ;
+}
+
+.btns-primary:disabled {
+    color: #fff;
+    background-color: #818890;
+    border-color: #818890 ;
+}
+
+.btns-secondary {
+    color: #fff;
+    background-color: #1A3365;
+    border-color: #1A3365;
+}
+
+.btns-secondary:disabled {
+    color: #fff;
+    background-color: #818890;
+    border-color: #818890 ;
+}
+
+.btns-secondary:hover {
+    color: #fff;
+    background-color: #124;
+    border-color: #124;
+}
+
+.btns-outline-primary {
+    color: #ff4343;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff4343;
+}
+
+.btns-outline-primary:hover {
+    color: #fff;
+    background-color: #ff4343;
+    border-color: #ff4343;
+}
+
+.btns-outline-primary:disabled {
+    color: #818890;
+    background-color: transparent;
+    border-color: #818890;
+}
+
+.btns-outline-secondary {
+    color: #132F63;
+    background-color: transparent;
+    background-image: none;
+    border-color: #132F63;
+}
+
+.btns-outline-secondary:hover {
+    color: #fff;
+    background-color: #132F63;
+    border-color: #132F63;
+}
+
+.btns-outline-secondary:disabled {
+    color: #818890;
+    background-color: transparent;
+    border-color: #818890;
+}
+
+.btns-lg {
+   font-size: 21px;
+   padding: 10px 30px;
+}
+
+.btns-sm {
+    font-size: 16px;
+   padding: 5px 20px;
+}
+
+.btns-block {
+    display: block;
+    width: 100%;
+}
+
+.btns-lg img {
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.btns-sm img {
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+    width: 18px;
+}
+  /* CTA Button */
+
+
+  @media(max-width: 767px){
+      .middle-logo img {
+        max-width: 300px;
+      }
+
+    .logo-section img{
+        max-width: 100px;
+    }
+  }
+
+  @media(max-width: 576px){
+    .form-section label {
+        text-align: left;
+    }
+  }
+
+
+  @media(max-width: 480px){
+    .middle-logo img {
+      max-width: 200px;
+    }
+
+    .logo-section img{
+        max-width: 100px;
+    }
+
+    #clockdiv{
+        font-size: 30px;
+    }
+
+    #clockdiv > div{
+        padding: 3px;
+    }
+
+    .form-section{
+        padding: 24px 15px;
+    }
+
+    .thankyou-section {
+        padding: 30px 15px;
+    }
+}
