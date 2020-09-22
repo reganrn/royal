@@ -35,23 +35,33 @@ a, a:hover {
 }
 
 .content-section {
-    padding: 50px 0;
+    padding: 30px 0;
+}
+
+.position-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: fit-content;
+    margin: auto;
 }
 
 .logo-section img {
-    max-width: 175px;
+    max-width: 150px;
 }
 
 .middle-logo img {
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .middle-logo {
-    padding: 0 0 50px;  
+    padding: 0 0 20px;  
 }
 
 .clock-section {
-    padding: 50px 0 100px;
+    padding: 30px 0 0px;
 }
 
 .clock-section h2 {
@@ -63,7 +73,7 @@ a, a:hover {
 /* Form */
 
 .form-section {
-    background: rgba(171, 6, 10, .8);
+    background: rgba(171, 6, 10, .5);
     padding: 24px 40px;
     max-width: 600px;
     margin: auto;
