@@ -157,9 +157,6 @@ a, a:hover {
     
   }
 
-
-
-
 /* Clock */
 
 #clockdiv{
@@ -314,7 +311,19 @@ a, a:hover {
   /* CTA Button */
 
 
+  
+
+  
+
+
   @media(max-width: 767px){
+
+    @media only screen and (orientation: landscape) {
+        .position-home {
+            position: relative;
+        }
+      }
+
       .middle-logo img {
         max-width: 300px;
       }
